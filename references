@@ -1,0 +1,33 @@
+@Manual{R-base,
+  title = {R: A Language and Environment for Statistical Computing},
+  author = {{R Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  address = {Vienna, Austria},
+  year = {2020},
+  url = {https://www.R-project.org/},
+}
+@Manual{R-papaja,
+  author = {Frederik Aust and Marius Barth},
+  title = {{papaja}: {Create} {APA} manuscripts with {R Markdown}},
+  year = {2020},
+  note = {R package version 0.1.0.9942},
+  url = {https://github.com/crsh/papaja},
+}
+@article{RUIZHERRERA202054,
+title = "Sleep among presentations of Attention-Deficit/Hyperactivity Disorder: Analysis of objective and subjective measures",
+journal = "International Journal of Clinical and Health Psychology",
+volume = "20",
+number = "1",
+pages = "54 - 61",
+year = "2020",
+issn = "1697-2600",
+doi = "https://doi.org/10.1016/j.ijchp.2019.08.001",
+url = "http://www.sciencedirect.com/science/article/pii/S1697260019301553",
+author = "Noelia Ruiz-Herrera and Alejandro Guillén-Riquelme and Amparo Díaz-Román and Nicola Cellini and Gualberto Buela-Casal",
+keywords = "ADHD, Sleep, Polysomnography, Children,  study, TDAH, Sueño, Polisomnografía, Niños, Estudio ex post facto",
+abstract = "Background/Objective
+To examine subjective and objective sleep patterns in children with different Attention-Deficit/Hyperactivity Disorder (ADHD) presentations. Method: We assessed 92 children diagnosed with ADHD (29 ADHD-Inattentive [ADHD-I], 31 ADHD-Hyperactive/Impulsive [ADHD-H/I], and 32 ADHD-Combined [ADHD-C)]) aged 7–11 years. The Pediatric Sleep Questionnaire (PSQ), Pediatric Daytime Sleepiness Scale (PDSS), and a sleep diary were used as subjective sleep measures, and polysomnography was used to objectively assess sleep quantity, quality, and fragmentation. Results: Subjective data showed impaired sleep in 12.7% of the sample. No significant differences were found between ADHD presentations in any objective and subjective sleep variable. Nevertheless, data on sleep fragmentation suggested a worse sleep continuity for the ADHD-H/I group, and correlation analyses confirmed that sleep is affected by age. Conclusions: Children with ADHD may suffer from sleep breathing problems and daytime sleepiness, as reported by their parents, even when their total sleep time and sleep efficiency are not affected. It seems that sleep in this population does not largely vary as a function of the ADHD presentation. Sleep in children with ADHD evolves with age.
+Resumen
+Antecedentes/Objetivo
+Examinar los patrones de sueño subjetivos y objetivos de niños con diferentes presentaciones del Trastorno por déficit de atención e hiperactividad (TDAH). Método: Se evaluaron 92 niños (29 TDAH-inatento [TDAH-I)], 31 TDAH-hiperactivo/impulsivo [TDAH-H/I] y 32 TDAH-combinado [TDAH-C]) de entre 7–11 años. El Pediatric Sleep Questionnaire (PSQ), la Pediatric Daytime Sleepiness Scale (PDSS) y un diario de sueño se utilizaron como medidas subjetivas de sueño. Para evaluar objetivamente la cantidad, calidad y fragmentación del sueño se utilizó la polisomnografía. Resultados: Los datos subjetivos mostraron alteraciones del sueño en el 12,7% de la muestra. No se observaron diferencias significativas en ninguna variable objetiva y subjetiva de sueño entre las diferentes presentaciones de TDAH. No obstante, los datos de fragmentación de sueño sugirieron una peor continuidad en el grupo con TDAH-H/I, y los análisis correlacionales confirmaron que el sueño se ve afectado por la edad. Conclusiones: Los niños con TDAH pueden experimentar problemas respiratorios durante el sueño y somnolencia diurna, según lo informado por sus padres, incluso cuando su tiempo total y eficiencia de sueño no se vean afectados. Parece que el sueño en el TDAH no varía en función de la presentación. El sueño en los niños con TDAH evoluciona con la edad."
+}
