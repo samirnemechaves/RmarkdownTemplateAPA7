@@ -1,46 +1,59 @@
 ---
-title: "The title"
-author:
-- address: Postal address
-  affiliation: '1'
-  corresponding: yes
-  email: my@email.com
-  name: First Author
-- affiliation: '1,2'
-  name: Ernst-August Doelle
+title             : "The title"
+shorttitle        : "Title"
+
+author: 
+  - name          : "First Author"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Postal address"
+    email         : "my@email.com"
+  - name          : "Ernst-August Doelle"
+    affiliation   : "1,2"
+
 affiliation:
-- id: '1'
-  institution: Wilhelm-Wundt-University
-- id: '2'
-  institution: Konstanz Business School
-output:
-  word_document: default
-  pdf_document: default
-bibliography: r-references.bib
-classoption: man
-csl: apa7.csl
-draft: no
-figurelist: no
-floatsintext: no
-footnotelist: no
-keywords: keywords
-linenumbers: yes
-mask: no
+  - id            : "1"
+    institution   : "Wilhelm-Wundt-University"
+  - id            : "2"
+    institution   : "Konstanz Business School"
+
 authornote: |
   Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
+
   Enter author note here.
-shorttitle: Title
-tablelist: no
+
 abstract: |
   One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
+  
   Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
+  
   One sentence clearly stating the **general problem** being addressed by  this particular study.
+  
   One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
+  
   Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
+  
   One or two sentences to put the results into a more **general context**.
+  
   Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
+  
   <!-- https://tinyurl.com/ybremelq -->
-wordcount: X
+  
+keywords          : "keywords"
+wordcount         : "X"
+
+bibliography      : ["r-references.bib"]
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : no
+draft             : no
+csl               : apa7.csl
+classoption       : "man"
+output            : papaja::apa6_pdf
 ---
 
 ```{r setup, include = FALSE}
@@ -61,8 +74,7 @@ knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
 
 ## Participants
-
-Cite [@ RUIZ HERRERA 202054] to test the quote and reference changes regarding APA6
+Cite [@RUIZHERRERA202054] to test the quote and reference changes regarding APA6
 
 ## Material
 
